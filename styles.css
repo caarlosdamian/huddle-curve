@@ -44,3 +44,58 @@
     border-radius: 11.7647px;
     cursor: pointer;
 }
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px 40px;
+    gap: 24px;
+}
+
+.hero-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #00252E;
+    text-align: center;
+
+}
+
+.hero-subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #00252E;
+    margin-bottom: 24px;
+}
+
+.generic-button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #FF52C1;
+    box-shadow: 0px 3px 7px rgba(0, 37, 46, 0.223053);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 11px 40px;
+}
+
+.generic-button:hover {
+    background: #FF8ED7;
+}
+
+.hero-img {
+    height: 209px;
+    margin-top: 80px;
+}
