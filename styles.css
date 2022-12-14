@@ -1,0 +1,46 @@
+/* 
+## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 24px;
+}
+
+.header-img {
+    width: 96px;
+    height: 16px;
+}
+
+.header-button {
+    padding: 6px 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.41177px;
+    line-height: 13px;
+    color: #FF52C1;
+    background: #FFFFFF;
+    border: 0.588235px solid #FF52C1;
+    box-shadow: 0px 0px 5px rgba(255, 82, 193, 0.218778);
+    border-radius: 11.7647px;
+    cursor: pointer;
+}
