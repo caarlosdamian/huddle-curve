@@ -229,6 +229,7 @@ footer {
     flex-direction: column;
     gap: 40px;
     padding: 28px;
+    position: relative;
 }
 
 .footer-top-text {
@@ -354,4 +355,9 @@ footer {
     justify-content: flex-start;
     gap: 18px;
     width: 100%;
+}
+
+.bg-footer{
+    position: absolute;
+    top: -50px;
 }
